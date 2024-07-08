@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-Poppins {
+  font-family: Poppins;
+}
+.font-AvenirNext {
+  font-family: AvenirNext;
+}
+
+.list-title {
+  @apply font-Poppins font-medium text-[16px] leading-[24px];
+}
+
+.list-text {
+  @apply font-Poppins font-normal text-[14px] leading-[21px];
+}
+
+.list-num {
+  @apply font-Poppins font-semibold text-[16px] leading-[24px];
+}
+
+.container {
+  width: 100%;
+  background-color: #eceff5;
+  margin-top: 8px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  color: white;
+}
+
+.one {
+  width: 36%;
+  background-color: #31ba96;
+}
+.two {
+  width: 48%;
+  background-color: #31ba96;
+}
+.three {
+  width: 65%;
+  background-color: #31ba96;
+}
+.four {
+  width: 60%;
+  background-color: #31ba96;
+}
